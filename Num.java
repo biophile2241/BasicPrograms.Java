@@ -30,7 +30,7 @@ public class Num {
       return 0;
    }
 
-   public static void palandrom(int m, int n) {
+   public static void palandromRange(int m, int n) {
       while (m < n) {
          if (palandrom(m) > 0)
             System.out.println(m);
@@ -47,7 +47,7 @@ public class Num {
    }
 
 // factorial between range m & n
-   public static void rangeFact(int m, int n) {
+   public static void rangeFactorial(int m, int n) {
       while (m < n) {
          System.out.println(factorial(m));
          m++;
@@ -80,7 +80,7 @@ public class Num {
       return(sum == num);
    }
 
-   public static void strong(int m, int n) {
+   public static void strongRange(int m, int n) {
       while (m < n) {
          if (strong(m) == true) {
             System.out.println(m);
@@ -253,12 +253,12 @@ static void fibo(int n){
       // palanRange(9, 16);
       // System.out.println("121 Is Palandrom: "palandrom(121));
       // System.out.println("Factorial: " + factorial(5));
-      // rangeFact(2, 5);
+      // rangeFactorial(2, 5);
       // System.out.println(spyNum(123));
       // System.out.println(spyNum(131));
       // System.out.println(strong(145));
       // System.out.println(strong(165));
-      // strong(135, 150);
+      // strongRange(135, 150);
       // System.out.println(reverse(234));
       // factor(12);
       // prime(0, 12);
